@@ -1,7 +1,7 @@
 import ffmpeg
 import os
 
-def converter_51_para_20(input_file, output_file):
+def converter_audio_to_stereo(input_file, output_file):
     try:
         if not os.path.exists(input_file):
             print("Erro: Arquivo de entrada não encontrado.")
